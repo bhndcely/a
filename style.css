@@ -1,0 +1,39 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ciclo {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.curso {
+  background-color: #2e2e2e;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.curso:hover {
+  background-color: #3e3e3e;
+}
